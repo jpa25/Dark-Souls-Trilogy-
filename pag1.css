@@ -1,0 +1,201 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  @font-face {
+    font-family: 'centurion';
+    src: url('Fonts/The Centurion.ttf') format('truetype'), url('Fonts/The Centurion.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  div.subtitulo p{
+    text-align: center;
+    display: inline;
+    font-size: 13px;
+  }
+div.subtitulo p strong{
+  color: #7b6801;
+}
+  ul.menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+  
+  ul.menu li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  ul.menu li a {
+    text-decoration: none;
+    padding: 1px 3px;
+    background-color: #574267d4 ;
+    color: #000;
+  }
+  
+  ul.menu li a:hover {
+    background-color: #0D0D0D;
+    color: #fff;
+  }
+  
+  ul.menu-inferior {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+  
+  ul.menu-inferior a {
+    display: inline-block;
+    margin-right: 10px;
+    text-decoration: none;
+    padding: 5px 10px;
+    background-color: #574267bf ;
+    color: #000;
+   
+  }
+  
+  ul.menu-inferior a:hover {
+    background-color: #0D0D0D;
+    color: #fff;
+  }
+  
+  h1 {
+    font-family: 'centurion', Helvetica, sans-serif;
+    color: #0D0D0D;
+    border-bottom: 1px solid #A6A6A6;
+    text-align: center;
+    text-shadow: 1px 1px 1px #0b0f15;
+  }
+  
+  h2 {
+    text-align: center;
+    font-family: 'centurion', Helvetica, sans-serif;
+    color: #B8B0B8;
+  }
+  
+.fundo{
+  background-image: url('imagens/fundo.jpg');
+      background-size: cover;
+      background-position: center;
+      height: auto;
+      height: auto;
+}
+  
+
+nav.container{
+  display: flex;
+}
+div.image-container {
+  flex: 1;
+  margin-right: 20px; 
+}
+div.text-container{
+  flex: 1;
+  text-align: right;
+}
+
+
+
+  main {
+    color: white;
+    display: inline-block;
+    padding: 16px;
+    font-family: sans-serif;
+  }
+  
+  img {
+    width: 450px;
+    height: 250px;
+    border-radius: 5%;
+  }
+  
+  li {
+    text-align: center;
+  }
+  
+  div {
+    text-align: center;
+  }
+  
+  body {
+    color: #B8B0B8;
+    background-image: linear-gradient(#3A1844  , #262426);
+  }
+  
+  ul {
+    list-style-type: none;
+  }
+  
+  a {
+    color: antiquewhite;
+  }
+  
+  p {
+    text-align: justify;
+  }
+  
+  ul.menu {
+    margin-left: auto;
+    margin-right: auto;
+  } 
+@media screen and (max-width:600px) {
+    ul.menu li {
+        display: inline-block;
+        width: 100%;
+        margin-right: 0;
+        padding-top: 10px;
+            padding-right: 10px;
+            padding-bottom: 10px;
+            padding-left: 10px;
+    }
+}
+@media screen and (min-width: 601) and (max-width: 1024px) {
+    ul.menu li{
+        display: inline-block;
+        width: 100%;
+        margin-right: 0;
+           
+    }
+    
+}
+  
+  @media screen and (max-width: 600px) {
+  }
+  @media screen and (min-width: 601px) and (max-width:1024px) {
+      }
+    @media screen and (min-width:1025px) {
+        }
+
+
+
+div.image-container2{
+  text-align: left;
+}
+div.image-container3{
+  text-align: right;
+}
+
+.parallax-container {
+  position: relative;
+  height: 500px; /* Ajuste a altura conforme necessário */
+  overflow: hidden;
+}
+
+.parallax {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('imagens/fundo.jpg'); /* Substitua pelo caminho da sua imagem */
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.content {
+  position: relative;
+  z-index: 1;
+} 
